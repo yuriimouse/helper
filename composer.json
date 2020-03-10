@@ -1,0 +1,32 @@
+{
+    "name": "yuriimouse/helper",
+    "version": "2.0.0",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/yuriimouse/helper.git",
+        "reference": "master"
+    },
+    "description": "A lot of useful helpers.",
+    "type": "library",
+    "keywords": ["helper", "converts"],
+    "homepage": "https://github.com/yuriimouse/helper",
+    "authors": [
+        {
+            "name": "Yurii Prudius",
+            "email": "hard.work.mouse@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Helper\\": "src/"
+        }
+    },
+    "extra": {
+    }
+}
